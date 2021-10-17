@@ -1,0 +1,49 @@
+/* Основной цвет текста #21243D */
+/* Доп цвет текста #000000 */
+/* Основной цвет фона #E5E5E5 */
+/* Доп цвет фона #EDF7FA */
+/* Цвет кнопки #FF6464 */
+
+:root {
+  --main-color-fon: #e5e5e5;
+  --secondaru-color-fon: #edf7fa;
+  --main-color-text: #21243d;
+  --secondary-color-text: #000000;
+  --color-button: #ff6464;
+}
+
+body {
+  background-color: var(--main-color-fon);
+  color: var(--main-color-text);
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-list {
+  color: var(--secondary-color-text);
+}
+
+.button {
+  background-color: var(--color-button);
+  color: #ffffff;
+}
+
+/* Section  Recent posts */
+
+.posts {
+  background-color: var(--secondaru-color-fon);
+}
+
+.posts-link {
+  color: #00a8cc;
+}
+
+.posts-s {
+  background-color: #ffffff;
+}
+
+.works-h {
+  color: #8695a4;
+}
